@@ -1,5 +1,5 @@
 import 'package:api_room/constants.dart';
-import 'package:api_room/screens/home.dart';
+import 'package:api_room/dashboard.dart';
 import 'package:flutter/material.dart';
 
 class App extends StatelessWidget {
@@ -9,7 +9,7 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: title,
-      home: const Home(),
+      home: const Dashboard(),
       theme: ThemeData(primarySwatch: Colors.grey, useMaterial3: true),
     );
   }
